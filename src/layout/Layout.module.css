@@ -50,10 +50,19 @@
     color: var(--color-text-primary);
 }
 
+.active {
+    color: var(--bg-secondary);
+}
+
 .exit {
     display: flex;
     align-items: center;
     justify-content: center;
     gap: 9px;
     margin-top: auto;
+}
+
+.content {
+    padding: 40px 60px;
+    width: 100%;
 }
